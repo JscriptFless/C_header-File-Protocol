@@ -34,7 +34,7 @@
         }
 
         else {
-            perror ("An unknown error has occured.");
+            perror ( "An unknown error has occured." );
         }
     }
 
@@ -61,7 +61,7 @@
         }
 
          else {
-            perror ("An unknown error has occured.");
+            perror ( "An unknown error has occured." );
         }
     }
 
@@ -89,7 +89,28 @@
         }
 
          else {
-            perror ("An unknown error has occured.");
+            perror ( "An unknown error has occured." );
+        }
+    }
+
+    void fProto_delete ( char filename_d[100] ) {
+        // Error message concatenation.
+        static char fileError_d[100] = "Could no delete file: ";
+        strcat ( fileError_d, filename_d );
+
+        // If true.
+        if (!0) {
+            remove ( filename_d );
+        } 
+        
+        // If the remove function has returned unsuccessful, then display error.
+        else if ( remove ( filename_d ) != 0) {
+            perror (fileError_d);
+        } 
+        
+        // Unknown error.
+        else {
+            perror ( "An unknown error has occured." );
         }
     }
 
