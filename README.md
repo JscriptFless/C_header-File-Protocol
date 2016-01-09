@@ -4,7 +4,7 @@ A simplified version of the standard sdtio.h file stream functions.
 ```C++
 // Use in C:
 
-  #include stdio.h
+  #include <stdio.h>
   #include "fp.h"
 
   int main ( void ) {
@@ -25,7 +25,7 @@ A simplified version of the standard sdtio.h file stream functions.
   
 // Use in C++:
 
-  #include iostream
+  #include <iostream>
   #include "fp.h"
   
   using namespace std;
