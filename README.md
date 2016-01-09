@@ -1,6 +1,16 @@
-# C_header-File-Protocol
-A simplified version of the standard sdtio.h file stream functions. 
+# C_header-File-Protocol:
+  A simplified version of the standard sdtio.h file stream functions. 
 
+# Functions:
+  ```C
+    void fProto_write ( char filename_w[100], char text_w[1000] );
+    void fProto_add ( char filename_a[100], char text_a[1000] );
+    void fProto_read ( char filename_r[100] );
+    void fProto_delete ( char filename_d[100] );
+  ```
+
+# Examples:
+C Example.
 ```C++
 // Use in C:
 
@@ -20,9 +30,9 @@ A simplified version of the standard sdtio.h file stream functions.
     
     return 0;
   }
-  
-
-  
+ ```
+ C++ Example.
+ ```
 // Use in C++:
 
   #include <iostream>
