@@ -1,10 +1,10 @@
 # C_header-File-Protocol
 A simplified version of the standard sdtio.h file stream functions. 
 
-Use in C:
+```C++
+// Use in C:
 
   #include stdio.h
-  
   #include "fp.h"
 
   int main ( void ) {
@@ -23,10 +23,9 @@ Use in C:
   
 
   
-Use in C++:
+// Use in C++:
 
   #include iostream
-  
   #include "fp.h"
   
   using namespace std;
@@ -44,4 +43,5 @@ Use in C++:
     
       return 0;
   }
+  ```
 
