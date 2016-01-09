@@ -11,7 +11,7 @@
 
 # Examples:
 C Example.
-```C++
+```C
 // Use in C:
 
   #include <stdio.h>
@@ -32,7 +32,7 @@ C Example.
   }
  ```
  C++ Example.
- ```
+ ```C++
 // Use in C++:
 
   #include <iostream>
